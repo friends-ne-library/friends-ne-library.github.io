@@ -4,8 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 (async () => {
-    const results = await fetchImageUrls('https://photos.app.goo.gl/xHDn3PftZaL78Ua17');
-
+    const results = await fetchImageUrls('https://photos.app.goo.gl/VWWrvCGjCqLGwrMaA');
     // Remove old images or create directory
     const dir = 'images/google-photos';
     fs.mkdirSync(dir, { recursive: true });
