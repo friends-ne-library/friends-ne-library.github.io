@@ -5767,6 +5767,8 @@ button.close {
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
+  /* height: 100% !important; */
+  object-fit: scale-down;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
