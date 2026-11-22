@@ -94,7 +94,8 @@ html {
  ul, li, ol {
      margin: 0px;
      padding: 0px;
-     list-style: none;
+     /* list-style: none; */
+     /* list-style-type: none; */
 }
  p {
      margin: 0px;
@@ -402,10 +403,12 @@ ul.top_icon li a{ color: #fff;
 
 
  .menu-area-main li:hover a, .menu-area-main li:focus a {
-     color: #b32137;
+     /* color: #b32137; */
 }
  .menu-area-main li.active a {
-     color: #b32137;
+     /* color: #b32137; */
+     color: #38c8a8;
+     text-decoration: underline !important;
 }
  .right_cart_section {
      float: right;
@@ -1872,4 +1875,11 @@ header {
 .event-title {
     font-size: x-large;
     color: blue;
+    text-decoration: underline !important;
+}
+
+.library-mission {
+    padding: revert;
+    /* list-style: revert; */
+    list-style-type: disclosure-closed;
 }
